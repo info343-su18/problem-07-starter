@@ -74,7 +74,7 @@ class SignUpForm extends Component {
 
         {/* avatar */}
         <div className="form-group">
-          <img className="avatar" src={this.state.avatar || noUserPic} alt="avatar preview" />
+          <img className="avatar" src={this.state.avatar || 'img/no-user-pic.png'} alt="avatar preview" />
           <label htmlFor="avatar">Avatar Image URL</label>
           <input className="form-control" 
             id="avatar" 
